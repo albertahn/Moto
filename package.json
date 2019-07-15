@@ -7,14 +7,25 @@
     "test": "jest"
   },
   "dependencies": {
+    "@babel/preset-flow": "^7.0.0",
+    "metro-react-native-babel-transformer": "^0.55.0",
     "react": "16.8.6",
-    "react-native": "0.60.3"
+    "react-native": "^0.59.9"
   },
   "devDependencies": {
     "@babel/core": "^7.5.0",
+    "@babel/plugin-transform-regenerator": "^7.4.5",
+    "@babel/plugin-transform-runtime": "^7.5.0",
     "@babel/runtime": "^7.5.0",
     "@react-native-community/eslint-config": "^0.0.3",
+    "babel-cli": "^6.26.0",
     "babel-jest": "^24.1.0",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "babel-preset-flow": "^6.23.0",
+    "eslint": "^6.0.1",
+    "eslint-config-google": "^0.13.0",
+    "eslint-plugin-react": "^7.14.2",
+    "flow-bin": "^0.92.0",
     "jest": "^24.1.0",
     "metro-react-native-babel-preset": "^0.54.1",
     "react-test-renderer": "16.8.6"
